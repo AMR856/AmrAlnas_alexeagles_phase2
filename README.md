@@ -3,3 +3,9 @@
 </p>
 
 # Task 1 Path Finding
+
+## Part One
+
+## Part Two
+
+### [A Star Maze Solver](./path_finding/a_star)
