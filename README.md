@@ -10,4 +10,4 @@
 
 ## Part Two
 
-### [A Star Maze Solver](./path_finding/a_star)
+### [A Star Maze Solver](./path_finding/A%20Star%20Maze%20Solver/)
