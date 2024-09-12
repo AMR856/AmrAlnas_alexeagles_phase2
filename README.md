@@ -6,6 +6,8 @@
 
 ## Part One
 
+### [Hybrid A Star Report](./path_finding/Hybrid%20A%20Star/Hybrid%20A%20Star.pdf)
+
 ## Part Two
 
 ### [A Star Maze Solver](./path_finding/a_star)
