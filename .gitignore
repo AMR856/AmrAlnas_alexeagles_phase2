@@ -1,2 +1,3 @@
 venv/
 .env
+networkx_playing.py
