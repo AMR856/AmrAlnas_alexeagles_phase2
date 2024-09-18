@@ -25,7 +25,14 @@ def generate():
     cols = int(cols)
     maze = Maze(rows, cols, difficulty)
     maze.drawing_nodes()
-    return jsonify({'Status': 'Maze was generated'}), 200
+    start_json =  json.dumps(list(maze.start))
+    end_json = json.dumps(list(maze.end))
+    obstacles_json = json.dumps([list(item) for item in maze.obstacles])
+    return jsonify({
+        'start': start_json,
+        'end': end_json,
+        'obstacles': obstacles_json
+    }), 200
 
 @app_views.route('/solve-maze', methods=['GET'], strict_slashes=False)
 def solve():
